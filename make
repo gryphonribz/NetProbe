@@ -5,7 +5,6 @@ CXXFLAGS=-Wall -I/usr/include/json-c -I/usr/include/openssl -I/path/to/wappalyze
 LDFLAGS=-L/usr/lib -L/path/to/wappalyzer/lib
 LDLIBS=-lssl -lcrypto -lcurl -ljson-c -lwappalyzer -lstdc++ -lm
 
-# Assuming your source files are named appropriately
 SRC=NetProbe.c
 OBJ=$(SRC:.c=.o)
 
